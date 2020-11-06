@@ -173,9 +173,10 @@ class Tooltip extends React.Component {
     this.setState({ targetTouch: true });
   }
 
-  targetTouchEnd() {
+  targetTouchEnd(event) {
     if (this.state.targetTouch) {
       this.toggleTip();
+      event.preventDefault();
     }
   }
 
