@@ -1,5 +1,5 @@
 {
-  "name": "@bft/react-tooltip-lite",
+  "name": "react-tooltip-lite",
   "version": "1.12.1",
   "description": "React tooltip, focused on simplicity and performance",
   "main": "dist/index.js",
